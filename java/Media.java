@@ -28,7 +28,6 @@ public class Media {
 		
 		mediaNac = maiorNota * 0.2;
 	}
-	
 	am = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota do AM: ")) * 0.3;
 	ps = Double.parseDouble(JOptionPane.showInputDialog("Digite a nota da PS: ")) * 0.5;
 	
