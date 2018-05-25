@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cáculo de Média - FIAP</title>
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="principal">
+      <form class="formulario-medias" action="index.html" method="post">
+        <div class="head-tabela">
+          <h2>CALCULE SUA MÉDIA AQUI</h2>
+        </div>
+
+      <section class="tabela-notas">
+        <fieldset>
+          <legend>Suas notas</legend>
+        <div class="campos">
+          <h3>Notas da NAC</h3>
+          <input type="text" id="nac1" placeholder="NAC 1...">
+        </div>
+        <div class="campos">
+          <input type="text" id="nac2" placeholder="NAC 2...">
+      </div>
+      <div class="campos">
+        <h3>Notas AM:</h3>
+        <input type="text" id="am" placeholder="Nota AM...">
+      </div>
+      <div class="campos">
+        <h3>Nota PS:</h3>
+        <input type="text" id="ps" placeholder="Nota PS...">
+      </div>
+
+      <div class="botao">
+        <button type="button" name="button" id="calcular">CALCULAR</button>
+      </div>
+    </fieldset></section>
+
+    <section class="tabela-resultado">
+      <fieldset>
+        <legend>Resultados</legend>
+      <div class="campos">
+        <h3>Média da NAC:</h3>
+        <input type="text" id="notaNac" disabled>
+      </div>
+
+    <div class="campos">
+      <h3>Média AM:</h3>
+      <input type="text" id="notaAm" disabled>
+    </div>
+    <div class="campos">
+      <h3>Média PS:</h3>
+      <input type="text" id="notaPs" disabled>
+    </div>
+    <div class="campos">
+      <h3>Média Semestral:</h3>
+      <input type="text" id="mediaSemestre" disabled>
+    </div>
+    <div class="campos">
+      <h3>Satus:</h3>
+      <input type="text" id="status" disabled>
+    </div></section>
+  </fieldset></div>
+
+      </form>
+    </div>
+<script src="js/media.js" charset="utf-8"></script>
+  </body>
+</html>
