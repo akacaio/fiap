@@ -1,10 +1,10 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Open+Sans');
-</style>
 
-.body {
+
+body {
   width: 100%;
   font-family: 'IBM Plex Sans', sans-serif;
+  background: #E91C5D;
 }
 
 .principal {
@@ -19,6 +19,8 @@
     border-radius: 5px 5px 0 0;
     height: 350px;
     width: 270px;
+    background: #fff;
+    box-shadow:20px 20px 30px black;
 }
 
 .head-tabela {
@@ -70,10 +72,11 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   font-weight: 600;
+  padding-bottom: 2px;
 }
 
 .botao button {
-  margin-top: 5px;
+  margin-top: 32px;
   padding: 5px;
   width: 100px;;
   height: 30px;
@@ -94,7 +97,7 @@
 }
 
 fieldset {
-  border: 1px solid #000;
+  border: 1px solid #E91C5D;
   border-radius: 5px;
   width: 45%;
   height: auto;
